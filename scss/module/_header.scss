@@ -1,0 +1,25 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  transition: all 0.5s;
+
+  &__inner {
+    @include inner;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    font-family: $font-family-en;
+    font-weight: 900;
+    color: $color_accent;
+  }
+
+  &--active {
+    background-color: #fff;
+  }
+}

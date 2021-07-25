@@ -1,0 +1,32 @@
+.global-nav {
+  display: flex;
+  align-items: center;
+  
+  @include breakPoint_th {
+    display: none;
+  }
+
+  &__lists {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__list {
+    margin-left: 3.6rem;
+    font-weight: bold;
+    font-family: $font-family-en;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
+    }
+    
+    &--strong {
+      background-color: $color_accent;
+      color: #fff;
+      padding: 0 2rem;
+      border-radius: 3rem;
+    }
+  }
+}

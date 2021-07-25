@@ -1,0 +1,18 @@
+
+// font-family
+$font-size_base: 1.6rem;
+$font-family-en: "Open Sans";
+$font-family_icon: $font-family_en, "material icons", "material icons outlined";
+$font-family_base: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ ProN W3", "メイリオ", "ＭＳ Ｐゴシック", sans-serif, $font-family_icon;
+
+// color
+$color_black: #333;
+$color_base: #A6CDFD;
+$color_accent: #4b79db;
+$color_light: #EEF2FD;
+
+// breakpoint
+$breakPoint_pc: 1280px;
+$breakPoint_tw: 1024px;
+$breakPoint_th: 768px;
+$breakPoint_sp: 480px;

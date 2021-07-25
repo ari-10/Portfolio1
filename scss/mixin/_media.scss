@@ -1,0 +1,23 @@
+@mixin breakPoint-pc {
+  @media (max-width: ($breakPoint-pc)) {
+    @content;
+  }
+}
+
+@mixin breakPoint-tw {
+  @media (max-width: ($breakPoint-tw)) {
+    @content;
+  }
+}
+
+@mixin breakPoint-th {
+  @media (max-width: ($breakPoint-th)) {
+    @content;
+  }
+}
+
+@mixin breakPoint-sp {
+  @media (max-width: ($breakPoint-sp)) {
+    @content;
+  }
+}

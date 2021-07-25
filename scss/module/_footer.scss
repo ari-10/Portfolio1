@@ -1,0 +1,27 @@
+.footer {
+  background-color: #08132A;
+  padding: 3rem 0;
+
+  &__inner {
+    @include inner;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include breakPoint_sp {
+      flex-flow: column;
+		}
+
+  }
+  
+  &__title {
+    color: #fff;
+    font-family: $font-family-en;
+    font-size: $font-size_base;
+  }
+
+  &__copyright {
+    font-size: 1.3rem;
+    color: #ccc;;
+  }
+}

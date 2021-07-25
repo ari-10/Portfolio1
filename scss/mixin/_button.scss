@@ -1,0 +1,16 @@
+@mixin button {
+  padding: 1.6rem 6.4rem;
+  border-radius: 3rem;
+  background-color: $color_accent;
+  box-shadow: 0 0 1.6rem 0.1rem #999;
+  letter-spacing: 0.1rem;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: translateY(-0.6rem);
+    opacity: 0.9;
+  }
+}

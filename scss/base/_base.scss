@@ -11,6 +11,8 @@ body {
 	font-size: $font-size_base;
 	color: $color_black;
   font-family: $font-family_base;
+	font-feature-settings: "palt" 1;
+	letter-spacing: 0.05rem;
 	background-image:
     repeating-linear-gradient(to bottom, #f2f2f2, #f2f2f2 0.1rem, transparent 0, transparent 3rem),
     repeating-linear-gradient(to right,#f2f2f2, #f2f2f2 0.1rem, transparent 0, transparent 3rem);
